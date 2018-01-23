@@ -84,6 +84,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BowlingGameDriver.cs" />
+    <Compile Include="BowlingGame.cs" />
+    <Compile Include="BowlingScoreCalculationsUsingOutlines.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BowlingScoreCalculationsUsingOutlines.feature</DependentUpon>
+    </Compile>
+    <Compile Include="BowlingScoreCalculations.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BowlingScoreCalculations.feature</DependentUpon>
+    </Compile>
+    <Compile Include="BowlingScoreCalculationStepDefs.cs" />
     <Compile Include="SpecFlowSeleniumStepDefs.cs" />
     <Compile Include="SpecFlowSeleniumFeatures.feature.cs">
       <AutoGen>True</AutoGen>
@@ -91,6 +104,7 @@
       <DependentUpon>SpecFlowSeleniumFeatures.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecFlowSeleniumUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -99,6 +113,14 @@
     </None>
     <None Include="packages.config" />
     <None Include="runtests.cmd" />
+    <None Include="BowlingScoreCalculationsUsingOutlines.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>BowlingScoreCalculationsUsingOutlines.feature.cs</LastGenOutput>
+    </None>
+    <None Include="BowlingScoreCalculations.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>BowlingScoreCalculations.feature.cs</LastGenOutput>
+    </None>
     <None Include="SpecFlowSeleniumFeatures.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>SpecFlowSeleniumFeatures.feature.cs</LastGenOutput>
