@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpecFlowSelenium
+namespace SpecFlowSelenium.BowlingSpecFlow
 {
     using TechTalk.SpecFlow;
     
@@ -18,7 +18,7 @@ namespace SpecFlowSelenium
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.2.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [TechTalk.SpecRun.FeatureAttribute("Bowling Score Calculation using Outlines", Description="  In order to know my performance\r\n  As a player\r\n  I want the system to calculat" +
-        "e my total score", SourceFile="BowlingScoreCalculationsUsingOutlines.feature", SourceLine=0)]
+        "e my total score", SourceFile="BowlingSpecFlow\\BowlingScoreCalculationsUsingOutlines.feature", SourceLine=0)]
     public partial class BowlingScoreCalculationUsingOutlinesFeature
     {
         

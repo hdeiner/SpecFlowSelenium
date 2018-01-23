@@ -10,14 +10,14 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpecFlowSelenium
+namespace SpecFlowSelenium.SeleniumSpecFlowXunit
 {
     using TechTalk.SpecFlow;
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.2.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("As a Google consumer, I want to learn to trust Google results,", Description="\t\t because I get what I need without clicking through URL results.", SourceFile="SpecFlowSeleniumFeatures.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("As a Google consumer, I want to learn to trust Google results,", Description="\t\t because I get what I need without clicking through URL results.", SourceFile="SeleniumSpecFlowXunit\\SpecFlowSeleniumFeatures.feature", SourceLine=0)]
     public partial class AsAGoogleConsumerIWantToLearnToTrustGoogleResultsFeature
     {
         

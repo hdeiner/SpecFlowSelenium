@@ -84,27 +84,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BowlingGameDriver.cs" />
-    <Compile Include="BowlingGame.cs" />
-    <Compile Include="BowlingScoreCalculationsUsingOutlines.feature.cs">
+    <Compile Include="BowlingSpecFlow\BowlingGameDriver.cs" />
+    <Compile Include="BowlingSpecFlow\BowlingGame.cs" />
+    <Compile Include="BowlingSpecFlow\BowlingScoreCalculationsUsingOutlines.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BowlingScoreCalculationsUsingOutlines.feature</DependentUpon>
     </Compile>
-    <Compile Include="BowlingScoreCalculations.feature.cs">
+    <Compile Include="BowlingSpecFlow\BowlingScoreCalculations.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BowlingScoreCalculations.feature</DependentUpon>
     </Compile>
-    <Compile Include="BowlingScoreCalculationStepDefs.cs" />
-    <Compile Include="SpecFlowSeleniumStepDefs.cs" />
-    <Compile Include="SpecFlowSeleniumFeatures.feature.cs">
+    <Compile Include="BowlingSpecFlow\BowlingScoreCalculationStepDefs.cs" />
+    <Compile Include="SeleniumSpecFlowXunit\SpecFlowSeleniumStepDefs.cs" />
+    <Compile Include="SeleniumSpecFlowXunit\SpecFlowSeleniumFeatures.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SpecFlowSeleniumFeatures.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpecFlowSeleniumUnitTests.cs" />
+    <Compile Include="SeleniumXunit\SpecFlowSeleniumUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -113,15 +113,15 @@
     </None>
     <None Include="packages.config" />
     <None Include="runtests.cmd" />
-    <None Include="BowlingScoreCalculationsUsingOutlines.feature">
+    <None Include="BowlingSpecFlow\BowlingScoreCalculationsUsingOutlines.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>BowlingScoreCalculationsUsingOutlines.feature.cs</LastGenOutput>
     </None>
-    <None Include="BowlingScoreCalculations.feature">
+    <None Include="BowlingSpecFlow\BowlingScoreCalculations.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>BowlingScoreCalculations.feature.cs</LastGenOutput>
     </None>
-    <None Include="SpecFlowSeleniumFeatures.feature">
+    <None Include="SeleniumSpecFlowXunit\SpecFlowSeleniumFeatures.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>SpecFlowSeleniumFeatures.feature.cs</LastGenOutput>
     </None>
