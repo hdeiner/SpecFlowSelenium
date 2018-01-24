@@ -34,6 +34,11 @@ namespace SpecFlowSelenium
         public void IShouldSeeResultWhenISearchForQuery(string searchResults, string searchTerms)
         {
             driver.FindElementById("lst-ib").SendKeys(searchTerms + Keys.Enter);
+
+            string fileName = "./" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".jpeg";
+            Screenshot screenShot = (driver.GetScreenshot());
+            screenShot.SaveAsFile(fileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+
             Assert.True(driver.PageSource.Contains(searchResults));
         }
 
