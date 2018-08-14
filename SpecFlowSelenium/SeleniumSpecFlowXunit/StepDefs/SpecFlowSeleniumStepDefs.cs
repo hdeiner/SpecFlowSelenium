@@ -39,12 +39,13 @@ namespace SpecFlowSelenium
             Screenshot screenShot = (driver.GetScreenshot());
             screenShot.SaveAsFile(fileName, System.Drawing.Imaging.ImageFormat.Jpeg);
 
-            Assert.True(driver.PageSource.Contains(searchResults));
+            Assert.Contains(searchResults, driver.PageSource);
         }
 
         public void Dispose()
         {
-            driver.Quit();
+            driver.Close();
+            driver.Dispose();
         }
   
     }
